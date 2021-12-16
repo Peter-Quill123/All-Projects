@@ -35,7 +35,6 @@ d.text((30,30), text = captcha(), fill=(255,255,0))
 img.save("1.png")
 
 root = Tk()      
-
 canvas = Canvas(root, width = 300, height = 100)      
 canvas.pack()      
 img = PhotoImage(file="1.png")      
